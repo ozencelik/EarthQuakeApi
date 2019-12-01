@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "RESTful earthQuakeApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: No test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozencelik/EarthQuakeApi.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Özenç Çelik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozencelik/EarthQuakeApi/issues"
+  },
+  "homepage": "https://github.com/ozencelik/EarthQuakeApi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13"
+  }
+}
